@@ -8,6 +8,15 @@ $(".saveBtn").on("click", function(){
 }); 
 // target a specific div block's id and it's text area and localstorage.getitem to set text value from Localstorage
     $("#9 .description").val(localStorage.getItem("9"));
+    $("#10 .description").val(localStorage.getItem("10"));
+    $("#11 .description").val(localStorage.getItem("11"));
+    $("#12 .description").val(localStorage.getItem("12")); 
+    $("#1 .description").val(localStorage.getItem("1")); 
+    $("#2 .description").val(localStorage.getItem("2")); 
+    $("#3 .description").val(localStorage.getItem("3")); 
+    $("#4 .description").val(localStorage.getItem("4")); 
+    $("#5 .description").val(localStorage.getItem("5")); 
+
 // get the current hour from moment.js with which we can compare the div IDs to add classes: past, present, or future
 
     // create a conditional that targets the time block in the HTML, grab the timeblock id and then add
