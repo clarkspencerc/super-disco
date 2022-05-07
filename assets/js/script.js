@@ -1,4 +1,9 @@
-//grab current date from moment.js and have it display on current hour id 
+var currentDayEl = document.querySelector("#currentDay");
+
+//grab current date from moment.js and have it display on currentDay id 
+
+var today = moment().format('dddd MMM Do'); 
+currentDayEl.textContent = "Today is " + today; 
 
 // create a function tied to an event listner so when you click save button it takes the text from your descripiton area and saves it to local storage with the block ID saved as a Key 
 $(".saveBtn").on("click", function(){
